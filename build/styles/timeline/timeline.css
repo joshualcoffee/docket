@@ -1,0 +1,39 @@
+.timeline-header{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.timeline-header .item{
+  flex: 1 ;
+  border: 1px solid black;
+  text-align: center;
+  height: 20px;
+}
+.timeline-resource {
+  position: relative;
+  height: 20px;
+}
+.timeline-resource .intervals{
+  display: flex;
+  position: absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  flex-flow: row nowrap;
+}
+
+.timeline-resource .intervals .interval{
+  flex: 1 ;
+  border: 1px dotted #E8E8E8;
+  text-align: center;
+  height: 20px;
+}
+
+.event{
+  position: absolute;
+  padding: 3px 5px;
+  border-radius: 3px;
+  background: #acacac;
+  font-size: 10px;
+}
